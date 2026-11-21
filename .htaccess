@@ -1,0 +1,5 @@
+Options -Indexes
+
+<FilesMatch "^(database\.php|batterenko\.sql|seed\.php)$">
+    Require all denied
+</FilesMatch>
